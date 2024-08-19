@@ -1,0 +1,31 @@
+{
+  "name": "interviewer-assessment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node server.ts",
+    "build": "next build",
+    "start": "NODE_ENV=production ts-node server.ts",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.26.1",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "retell-client-js-sdk": "^2.0.2",
+    "retell-sdk": "^4.2.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/ws": "^8.5.12",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247"
+}
